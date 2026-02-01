@@ -1,0 +1,20 @@
+{
+  "job_id": "string",
+  "model": "string",
+  "created_utc": "string",
+  "pages": [
+    {
+      "page_index": "number",
+      "source_name": "string",
+      "similarity": "number",
+      "status": "accepted|tiebreak_used|flagged|failed",
+      "notes": ["string"]
+    }
+  ],
+  "totals": {
+    "pages_total": "number",
+    "accepted": "number",
+    "flagged": "number",
+    "failed": "number"
+  }
+}
