@@ -1,0 +1,16 @@
+{
+  "job_id": "string",
+  "input_type": "pdf|zip|images",
+  "paper_id": "string_optional",
+  "student_split": {
+    "mode": "best_effort|manual_only|off",
+    "manual_boundaries": [
+      { "student_name": "string", "start_page_index": 1, "end_page_index": 3 }
+    ]
+  },
+  "options": {
+    "max_pages_override": "number_optional",
+    "dpi_override": "number_optional",
+    "qc_enabled_override": "boolean_optional"
+  }
+}
